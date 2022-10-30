@@ -88,7 +88,15 @@
                             .sha256 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
                     }
 
-                    // Artist
+                    // Artist, url
+                    if (info[i].url != "") {
+                        $("<td width='45%'>" +
+                            "<a href='info[i].url
+                            "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
+                    }
+                    else{
+                        $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
+                    }
                     $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
 
                     // Comment
