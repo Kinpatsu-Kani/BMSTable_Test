@@ -1,2 +1,2 @@
 # BMS-Table-Template
-BMS難易度表のテンプレートです。
+難易度表テスト用
